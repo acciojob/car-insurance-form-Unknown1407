@@ -7,6 +7,53 @@
 </head>
 
 <body>
+	<h1>Car Registration Form</h1>
+	<hr>
+	<form>
+		<table border="3">
+			<tr>
+				<td><label for="name">Name</label></td>
+				<td><input type="text" id="name" placeholder="Enter Your Name" required</td>
+			</tr>
+			<tr>
+				<td><label for="email">Email</label></td>
+				<td><input type="email" id="email" placeholder="Enter Your Email" required</td>
+			</tr>
+			<tr>
+				<td><label for="gender">Gender</label></td>
+				<td>
+					<input type="radio" id="name" name="male" required>Male
+					<input type="radio" id="name" name="female" required>Female
+				</td>
+			</tr>
+			<tr>
+				<td><label for="cars">Car Brands</label></td>
+				<td>
+					<select id="cars" name="cars">
+						<option value="BMW">BMW</option>
+						<option value="Audi">Audi</option>
+						<option value="Mercedez">Mercedez</option>
+				</td>
+				
+			</tr>
+			<tr>
+				<td><label for="carage">Car Age</label></td>
+				<td><input type="number" id="carage" placeholder="Enter Your Car Age" required</td>
+			</tr>
+			<tr>
+				<td><label for="dop">Date of Purchase(dop)</label></td>
+				<td><input type="date" id="dop" placeholder="dd-mm-yyyy"required</td>
+			</tr>
+			<tr>
+				<td><label for="password">Password</label></td>
+				<td><input type="password" id="password" placeholder="Enter The Password"required</td>
+			</tr>
+			<tr>
+				<td><button type="submit">Submit</button>
+			</tr>
+			
+		</table>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
